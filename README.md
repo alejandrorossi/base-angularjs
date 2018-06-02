@@ -3,7 +3,7 @@
 ## Instrucciones para correr
   - Descargar NodeJs
   - Instalar NodeJs
-  - Desde la consola de Node navegar a la carpeta de proyecto
+  - Desde la consola de Node navegar a la carpeta web del proyecto
   - Ejecutar "npm install"
   - Ejecutar "npm start"
   - Desde navegador en localhost:8000/  se podrá ver el proyecto
