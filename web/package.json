@@ -1,0 +1,22 @@
+{
+  "name": "viaje-bus",
+  "description": "Tp de viaje bus con angular.",
+  "version": "0.0.0",
+  "author": "ale, gerardo y sergio",
+  "dependencies": {
+    "angular": "^1.7.0",
+    "angular-animate": "^1.7.0",
+    "angular-touch": "^1.7.0",
+    "angular-ui-bootstrap": "^2.5.6",
+    "angular-ui-router": "^0.3.2",
+    "bootstrap": "=3.3.7",
+    "font-awesome": "^4.7.0",
+    "http-server": "^0.11.1",
+    "jquery": "^3.3.1"
+  },
+  "scripts": {
+    "prestart": "npm install",
+    "start": "http-server  -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
