@@ -26,7 +26,7 @@
   - From a browser go to localhost:8000/  
   
 
-## Aclaraciones
-  - Modify package.json for libraries modifications
+## To consider
+  - package.json for libraries modifications
   - Includes a set of commonly used libraries
   - Includes a branch called "old-school",  compatible with previous versions (without ECMA6)
