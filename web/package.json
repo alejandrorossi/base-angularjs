@@ -1,8 +1,8 @@
 {
-  "name": "viaje-bus",
-  "description": "Tp de viaje bus con angular.",
+  "name": "Base-Project",
+  "description": "Base angularJs project",
   "version": "0.0.0",
-  "author": "ale, gerardo y sergio",
+  "author": "Alejandro Rossi, Github: alejandrorossi",
   "dependencies": {
     "angular": "^1.7.0",
     "angular-animate": "^1.7.0",

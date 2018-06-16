@@ -1,4 +1,4 @@
-app.config(function($stateProvider, $urlRouterProvider) {
+const Routes = ($stateProvider, $urlRouterProvider) => {
 
         $urlRouterProvider.otherwise("/");
       
@@ -6,10 +6,20 @@ app.config(function($stateProvider, $urlRouterProvider) {
         
         .state("home", {
             url: "/",
-            templateUrl: "templates/login.html",
-            controller: "LoginCtrl as login"
+            templateUrl: "templates/home.html",
+            controller: "HomeController as hm",
+            // params:{
+            //   parametro: null
+            // }
           })
+		//   .state("another", {
+        //     url: "/",
+        //     templateUrl: "templates/another.html",
+        //     controller: "another as another",
+        //     // params:{
+        //     //   param: null
+        //     // }
+        //   })
 
 
-
-});
+};
