@@ -7,7 +7,7 @@ const Routes = ($stateProvider, $urlRouterProvider) => {
         .state("home", {
             url: "/",
             templateUrl: "templates/home.html",
-            controller: "HomeController as hm",
+            controller: "homeController as hm",
             // params:{
             //   parametro: null
             // }
